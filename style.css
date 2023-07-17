@@ -1,0 +1,62 @@
+body {
+    margin: 0 auto;
+    background-color:cornsilk
+}
+.container {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.add {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.add input {
+    padding: 3px;
+    flex-grow: 1;
+}
+
+#add-btn {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: 1px solid white;
+    background-color: antiquewhite;
+    font-weight: bold;
+}
+
+label {
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 5px;
+    border : 2px solid white;
+}
+
+ul li input {
+    margin-right: 10px;
+}
+
+ul li label {
+    font-size: 20px;
+    flex-grow: 1;
+}
+
+ul li button {
+    padding: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
